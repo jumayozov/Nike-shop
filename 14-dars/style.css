@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e5e5e5;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav start */
+
+nav {
+    background: #322e41;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    padding: 23px;
+    display: block;
+    transition: 500ms;
+}
+
+.nav-link:hover {
+    color: orange;
+    background: white;      
+}   
+
+/* Header start */
+
+header {
+    background: url(./image/nike.jpg) no-repeat center center / cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.header-text {
+    font-size: 18px;
+}
+
+/* section start */
+
+.product-item {
+    background: white;
+    max-width: 540px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.product-title {
+    color: #2c2a2a;
+    font-size: 22px;
+    margin-block: 15px;
+}
+
+.product-text {
+    color: #9b9b9b;
+    line-height: 19px;
+}
+
+.product-card {
+    background: white;
+    max-width: 255px;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-image {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    margin-block: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    width: 75px;
+    height: 50px;
+    object-fit: cover;  
+    object-position: -14px -5px;
+}
+
+.product-titles {
+    font-size: 22px;
+    color: #2c2a2a;
+    margin-bottom: 10px;
+}
+
+.product-texts {
+    color: #9b9b9b;
+    line-height: 16px;
+    padding-bottom: 15px;
+}
+
+.product-cards {
+    display: flex;
+    max-width: 540px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin: -30px 0 30px;
+}
+
+/* footer start */
+
+footer {
+    background: #322e41;
+    padding-block: 30px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer-inp,
+.footer-text {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.footer-text {
+    height: 86px;
+    resize: none;
+}
+
+.footer-btn {
+    background: #544294;
+    color: white;
+    padding-block: 7px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-link {
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+    transition: 500ms;
+}
+.footer-link:hover{
+    color: orange;
+}
+.footer-box {
+    display: flex;
+    column-gap: 50px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-support-list {
+    display: flex;
+    column-gap: 35px;
+}
